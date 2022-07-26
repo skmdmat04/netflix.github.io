@@ -1,0 +1,208 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+#whole{
+    position: relative;
+    color: white;
+    background-color: black;
+    z-index: -1;
+} 
+ .bg{
+    position: relative;
+    height: 600px;
+    background-image: url('image/Background.jpeg');
+    background-repeat: no-repeat;
+
+}
+/* navbar */
+#navbar{
+    position: relative;
+    display: flex; 
+    top: 20px;
+    padding: 20px;
+}
+#logo{
+    font-family: 'Bebas Neue';
+    margin-left: 48px;
+    margin-right: 750px;
+    color: red;
+    font-size: 24px;
+}
+#lang{
+    margin-right: 20px;
+}
+.choose{background: scroll;
+    border: 2px, rgb(112, 105, 105);
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+}
+#signup button{
+    background:red;
+    font-size: 20px;
+    color:white;
+    padding: 6px;
+    border: none; 
+}
+#home{
+    position: relative;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home div{
+    flex-direction: column;
+}
+/* TV */
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.animation{
+position: relative;
+}
+.animation video{
+    height: 52%;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    size: 78%;
+
+}
+/* download section */
+#download .content{
+    flex-direction: row-reverse;
+}
+.images{
+    display: flex;
+}
+.images #boxes{
+    background-color:black;
+    border: 2px solid rgb(66, 61, 61);
+    border-radius: 9px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 74%;
+    left: 13%;
+}
+#boxes img{
+    height: 65px;
+    margin: 22px;
+}
+#boxes div{
+    position: relative;
+    margin-right: 20px;
+}
+#boxes div p{
+    color: blue;
+}
+/* watch anywhere */
+.videos{
+    left: 56%;
+    top: 7%;
+    position: absolute;
+    z-index: -1;
+}
+.videos video{
+    height: 232px;
+    position: relative;
+    
+}
+/* frequently asked question */
+#asked .content{
+    flex-direction: column;
+   
+}
+#askedque{
+    width: 80%;
+    margin: 4%;
+    font-size: 3rem;
+}
+#askedque h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.askedbutton{
+    list-style: none;
+
+}
+#questions button{
+    border: none;
+    color: white;
+    background-color: rgb(44, 37, 37);
+    text-align: left;
+    margin-top: 4%;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    padding: 2%; 
+}
+/* footer */
+#footer{
+    height: fit-content;
+    position: relative;
+    padding-bottom: 0px;
+    
+}
+#insidefooter{
+    position: relative;
+    margin: 20px 200px;
+    font-size: 1em;
+    color: rgb(85, 79, 79);
+}
+#footerlinks{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+
+}
+#footerlinks li{
+    padding: 10px;
+    list-style: none;
+
+}
+/* common  varriable */
+h1{
+font-size: 3rem;
+padding: 3px;
+}
+h3{
+    font-size: 1.7rem;
+    padding: 2px;
+    
+}
+p{
+    font-size: 1.5rem;
+}
+.email{
+  margin-top: 4%;
+    width: 76%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 2%;
+}
+.button{
+    background-color: red;
+    padding: 7px;
+    width: 19%;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 51px;
+}
+.spac{
+    position: relative;
+    height: 8px;
+    width: 100%;
+    background-color: rgb(46, 42, 42);
+}
+

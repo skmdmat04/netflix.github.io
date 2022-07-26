@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div id="whole">
+    <!-- header -->
+    <div class="bg">
+    <header id="head">
+        <nav id="navbar">
+           <div id="logo"><h1>NETFLIX</h1></div> 
+           <div id="lang">
+            <select class="choose"><option value="english">English</option>
+        <option value="Hidi">Hindi</option>
+    </select>
+</div>
+<div id="signup">
+    <button type="button" oneclick()="validateUser" >Sign in ></button>
+</div>
+        </nav>
+    </header>
+    <main id="main">
+        <!-- home section -->
+        <div id="home">
+            <div class="content">
+            <h1 class="heading">Unlimited movies, TV shows and more.</h1>
+            <h3 class="medium">Watch anywhere. Cancel anytime.Watch anywhere. Cancel anytime.</h3>
+            <div class="form">
+            <p class="para">Ready to watch? Enter your email to create or restart your membership.</p>
+           <input type="email" class="email" placeholder="Email address" required><button class="button" type="button" oneclick()="validateUser">Get Started ></button>
+            </div>
+            </div>
+        </div> 
+    </main>
+    </div>
+    <div class="spac"> </div>
+        <!-- TV -->
+        <div id="TV">
+            <div class="content">
+            <div class="lefttext">
+                <h1 class="heading">Enjoy on your TV.</h1> 
+                <h3  class="medium">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+              </div>
+              <div class="animation"><img src="image/tv.png">
+            <video src="image/Video in TV.mp4" autoplay loop muted></video>-</div>
+        </div>
+        </div>
+        <div class="spac"> </div>
+        <!-- download section -->
+        <div id="download">
+            <div class="content">
+            <div class="righttext">
+                <h1 class="heading">Download your shows to watch offline.</h1>
+                <h3 class="medium">Save your favourites easily and always have something to watch.</h3>
+            </div>
+            <div class="images"><img src="image/Mobile Phone.jpeg" alt="mobile">
+            <div id="boxes"><img src="image/Stranger things icon.png" alt="stranger">
+               <div> <h4>Stranger Thing</h4><p>Downloading...</p></div>
+            <div class="video"><img src="Downloading animation.gif" alt="animation"></div></div></div>
+        </div>
+        </div>
+        <div class="spac"> </div>
+        <!-- watch anywhere -->
+        <div id="watch">
+            <div class="content">
+            <div class="lefttext">
+                <h1 class="heading">Watch everywhere.</h1>
+                <h3  class="medium">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            </div>
+            <div>
+           <div class="image"><img src="image/Monitor.png" alt="monitor"></div>
+           <div class="videos"><video src="image/video in monitor.mp4" autoplay muted loop></video></div></div>
+        </div>
+        </div>
+        <div class="spac"> </div>
+        <!-- create profile -->
+        <div id="profile">
+            <div class="content">
+            <div  class="righttext">
+                <h1 class="heading">Create profiles for children.</h1>
+                <h3 class="medium">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+            </div>
+            <div class="image"><img src="image/Children.png" alt="children"></div>
+        </div>
+        </div>
+        <div class="spac"> </div>
+        <!-- frequently asked question -->
+        <div id="asked">
+            <div class="content">
+                <div id="askedque">
+                <h1 class="heading">Frequently Asked Questions</h1>
+                <ul id="questions">
+                    <li class="askedbutton">
+                        <button type="button">What is Netflix?</button>
+                    </li>
+                    <li class="askedbutton">
+                        <button type="button">How much does Netflix cost?</button>
+                    </li>
+                    <li class="askedbutton">
+                        <button type="button">Where can I watch?</button>
+                    </li>
+                    <li class="askedbutton">
+                        <button type="button">Hoq do I cancel?</button>
+                    </li>
+                    <li class="askedbutton">
+                        <button type="button">What can I watch on Netflix?</button>
+                    </li>
+                    <li class="askedbutton">
+                        <button type="button">Is Netflix good for kids?</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="form">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" class="email" placeholder="Email address"><button type="button" class="button" oeclick()="validateUser" >Get Started</button>
+            </div>
+        </div>
+        </div>
+    </main>
+    <div class="spac"> </div>
+    <!-- footer -->
+    <footer id="footer">
+        <div id="insidefooter">
+        Questions? Call <a href="#" style="text-decoration:none;color: rgb(85, 79, 79);">000-800-040-654</a>
+            <ul id="footerlinks">
+                <li>FAQ</li>
+                <li>help center</li>
+                <li>Account </li>
+                <li>Media center</li>
+                <li>Investor Relations</li>
+                <li>jobs</li>
+                <li>Ways to Watch</li>
+                <li>Terms of Use</li>
+                <li>Privecy</li>
+                <li>Cookie Preferences</li>
+                <li>Cookie Preferences</li>
+                <li>Contact Us</li>
+                <li>Speed Test</li>
+                <li>Legal Notices</li>
+                <li>Only on Netflix</li>
+            </ul>
+            <select class="choose">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <p class="para">Netflix India</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
